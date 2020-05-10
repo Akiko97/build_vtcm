@@ -20,7 +20,7 @@ source test_pcrread.sh # set ENV and run a simple test
 
 Cube-1.3/Cube-TCM source code:
 
-[Gitee: Cube1.3](https://gitee.com/biparadox/cube-1.3)
+[Gitee: Cube-1.3](https://gitee.com/biparadox/cube-1.3)
 
 [Gitee: Cube-TCM](https://gitee.com/biparadox/cube-tcm)
 
