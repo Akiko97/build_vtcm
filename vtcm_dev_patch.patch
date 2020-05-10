@@ -1,0 +1,12 @@
+diff -Npru vtcm_dev.orig/vtcmd_dev.c vtcm_dev/vtcmd_dev.c
+--- vtcm_dev.orig/vtcmd_dev.c	2020-05-09 22:34:24.823086000 +0800
++++ vtcm_dev/vtcmd_dev.c	2020-05-09 22:36:21.619151034 +0800
+@@ -634,7 +634,7 @@ static int vtcm_io_process(void * data)
+ 					debug("vtcm %d send command error %d!\n",i,ret);
+ 					vtcm_dev->state	=VTCM_STATE_ERR;	
+ 					vtcm_dev->timeout=0;
+-					nlsk=NULL;
++					//nlsk=NULL;
+ 					if(!completion_done(&vtcm_dev->vtcm_notice))
+ 						complete(&vtcm_dev->vtcm_notice);
+ 						
