@@ -23,5 +23,3 @@ source env_build.sh
 cd vtcm_dev
 patch -p1 < ../../../vtcm_dev_patch.patch
 make
-cd ../vtcm_netlink_emulator
-ln -s ../../cube-1.3/proc/main/main_proc
